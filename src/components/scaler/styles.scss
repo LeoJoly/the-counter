@@ -11,19 +11,19 @@
       width: 70vw;
       padding: 1.5rem 1rem;
       margin: 1rem 0;
-      background-color: vars.$color;
+      background-color: vars.$color-alt;
       border: none;
       border-radius: .7rem;
       font-size: 1.4rem;
       text-align: center;
 
       &::placeholder {
-        color: vars.$color-dark;
+        color: vars.$color;
       }
 
       &:focus {
         color: vars.$color-darker;
-        background-color: vars.$color-bright;
+        background-color: vars.$color;
       }
     }
 
@@ -31,10 +31,10 @@
       width: 70vw;
       padding: 1rem;
       margin: 1rem 0;
-      background-color: vars.$color-bright;
+      background-color: vars.$color-darker;
       border: none;
       border-radius: .7rem;
-      color: vars.$color-darker;
+      color: vars.$color-bright;
       font-size: 1.4rem;
     }
   }
