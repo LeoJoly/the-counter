@@ -1,6 +1,26 @@
 @use 'reset';
 @use 'vars';
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+
+html {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
 
 body {
-  font-family: sans-serif;
+  background: vars.$color-darker;
+  color: vars.$color;
+}
+
+.flex-columns {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered {
+  justify-content: center;
+  align-items: center;
 }

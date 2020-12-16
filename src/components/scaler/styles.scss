@@ -1,0 +1,41 @@
+@use 'src/styles/vars';
+
+.scaler {
+  width: 100%;
+  height: 82vh;
+
+  &-form {
+    width: fit-content;
+    height: fit-content;
+    &-input {
+      width: 70vw;
+      padding: 1.5rem 1rem;
+      margin: 1rem 0;
+      background-color: vars.$color;
+      border: none;
+      border-radius: .7rem;
+      font-size: 1.4rem;
+      text-align: center;
+
+      &::placeholder {
+        color: vars.$color-dark;
+      }
+
+      &:focus {
+        color: vars.$color-darker;
+        background-color: vars.$color-bright;
+      }
+    }
+
+    &-btn {
+      width: 70vw;
+      padding: 1rem;
+      margin: 1rem 0;
+      background-color: vars.$color-bright;
+      border: none;
+      border-radius: .7rem;
+      color: vars.$color-darker;
+      font-size: 1.4rem;
+    }
+  }
+}
