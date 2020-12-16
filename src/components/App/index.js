@@ -1,5 +1,5 @@
 // yarn import
-import React from 'react';
+import React, { useState } from 'react';
 
 // import
 //  -- styles
@@ -10,13 +10,17 @@ import Scaler from 'src/components/scaler';
 import Counter from 'src/components/counter';
 
 // componant
-const App = () => (
-  <div className="app">
-    <Header />
-    <Scaler />
-    <Counter />
-  </div>
-);
+const App = () => {
+  const [value, setValue] = useState('');
+
+  return (
+    <div className="app">
+      <Header />
+      <Scaler value={value} setValue={setValue} />
+      <Counter />
+    </div>
+  );
+};
 
 // export
 export default App;
