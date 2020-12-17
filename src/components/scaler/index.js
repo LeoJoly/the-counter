@@ -6,6 +6,7 @@ import './styles.scss';
 
 // componant
 const Scaler = ({ value, setValue, setScale }) => {
+
   const onChange = (event) => {
     setValue(event.target.value);
   }

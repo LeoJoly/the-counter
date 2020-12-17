@@ -13,6 +13,7 @@ import Counter from 'src/components/counter';
 const App = () => {
   const [value, setValue] = useState('');
   const [scale, setScale] = useState(0);
+  const [counter, setCounter] = useState(0);
 
   console.log(scale);
 
@@ -20,7 +21,7 @@ const App = () => {
     <div className="app">
       <Header />
       <Scaler value={value} setValue={setValue} setScale={setScale} />
-      <Counter />
+      <Counter counter={counter} setCounter={setCounter} />
     </div>
   );
 };

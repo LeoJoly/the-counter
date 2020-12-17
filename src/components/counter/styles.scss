@@ -47,3 +47,17 @@
     }
   }
 }
+
+.reset-btn {
+  margin-top: 3rem;
+  padding: .3rem 1.2rem;
+  background: vars.$color-alt;
+  border: none;
+  border-radius: 1rem;
+  color: vars.$color-darker;
+  font-size: 1.3rem;
+
+  &:active {
+    background-color: vars.$color-bright;
+  }
+}
