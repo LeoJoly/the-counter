@@ -11,6 +11,10 @@
     font-size: 17rem;
     font-weight: 200;
     color: vars.$color-bright;
+
+    &--danger {
+      color: #EB5A55;
+    }
   }
 }
 
@@ -27,6 +31,11 @@
     background-color: vars.$color-bright;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
+
+    &--danger {
+      background-color: #EB5A55;
+      border-color: #EB5A55;
+    }
 
     &:active {
       background: vars.$color-darker;

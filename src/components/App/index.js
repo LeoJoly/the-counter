@@ -21,7 +21,7 @@ const App = () => {
     <div className="app">
       <Header />
       <Scaler value={value} setValue={setValue} setScale={setScale} />
-      <Counter counter={counter} setCounter={setCounter} />
+      <Counter counter={counter} setCounter={setCounter} scale={scale} />
     </div>
   );
 };
