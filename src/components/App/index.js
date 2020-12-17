@@ -12,11 +12,14 @@ import Counter from 'src/components/counter';
 // componant
 const App = () => {
   const [value, setValue] = useState('');
+  const [scale, setScale] = useState(0);
+
+  console.log(scale);
 
   return (
     <div className="app">
       <Header />
-      <Scaler value={value} setValue={setValue} />
+      <Scaler value={value} setValue={setValue} setScale={setScale} />
       <Counter />
     </div>
   );
