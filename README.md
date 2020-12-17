@@ -1,5 +1,5 @@
 # the-counter
-A simple app to count people
+A simple **mobile** app to count people
 
 Start by choosing a scale.
 Then go to the bottom of the app to find the counter.
